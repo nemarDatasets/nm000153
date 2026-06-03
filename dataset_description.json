@@ -1,1 +1,43 @@
-/annex/objects/SHA256E-s2236--d7551b337c6a4f34583a026dbaeaf9d2054328e73288f8f848294bd6c6287847.json
+{
+    "Name": "Langer et al. 2017 — Multimodal Resource for Studying Information Processing in the Developing Brain (MIPDB)",
+    "BIDSVersion": "1.9.0",
+    "DatasetType": "raw",
+    "License": "CC-BY-NC-SA-3.0",
+    "Authors": [
+        "Nicolas Langer",
+        "Erica J Ho",
+        "Lindsay M Alexander",
+        "Helen Y Xu",
+        "Renee K Jozanovic",
+        "Simon Henin",
+        "Agustin Petroni",
+        "Samantha Cohen",
+        "Enitan T Marcelle",
+        "Lucas C Parra",
+        "Michael P Milham",
+        "Simon P Kelly"
+    ],
+    "HowToAcknowledge": "Please cite: Langer, N., Ho, E. J., Alexander, L. M., Xu, H. Y., Jozanovic, R. K., Henin, S., Petroni, A., Cohen, S., Marcelle, E. T., Parra, L. C., Milham, M. P., & Kelly, S. P. (2017). A resource for assessing information processing in the developing brain using EEG and eye tracking. Scientific Data, 4, 170040. https://doi.org/10.1038/sdata.2017.40",
+    "EthicsApprovals": [
+        "Chesapeake Institutional Review Board"
+    ],
+    "ReferencesAndLinks": [
+        "https://doi.org/10.1038/sdata.2017.40",
+        "https://fcon_1000.projects.nitrc.org/indi/cmi_eeg/",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC5387929/"
+    ],
+    "DatasetDOI": "doi:10.1038/sdata.2017.40",
+    "GeneratedBy": [
+        {
+            "Name": "convert_mipdb.py (EEGDash)",
+            "Description": "Read EGI NetStation .raw files at 500 Hz with mne.io.read_raw_egi and rewrote each per-block .raw as one BIDS-EEG run. The per-block paradigm mapping is NOT enumerated in Langer et al. 2017, so each block is published as task-blockNN; the paradigm sequence (Resting-state → Surround suppression → Naturalistic viewing → Contrast change detection → Sequence learning → Symbol search) is identical across subjects per the paper but the mapping from block index to paradigm should be confirmed against the CMI MIPDB documentation. Source eye-tracking and behavioural data are preserved in /sourcedata.",
+            "CodeURL": "https://github.com/bruaristimunha/EEGDash"
+        }
+    ],
+    "SourceDatasets": [
+        {
+            "URL": "s3://fcp-indi/data/Projects/EEG_Eyetracking_CMI_data/",
+            "Version": "as of 2026-04"
+        }
+    ]
+}
