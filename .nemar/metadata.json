@@ -1,0 +1,85 @@
+{
+  "version": "2.0",
+  "pipeline_stage": "validated",
+  "authors": {
+    "Nicolas Langer": {},
+    "Erica J Ho": {},
+    "Lindsay M Alexander": {},
+    "Helen Y Xu": {},
+    "Renee K Jozanovic": {},
+    "Simon Henin": {},
+    "Agustin Petroni": {},
+    "Samantha Cohen": {
+      "orcid": "0000-0003-3007-5372"
+    },
+    "Enitan T Marcelle": {},
+    "Lucas C Parra": {
+      "orcid": "0000-0003-4667-816X"
+    },
+    "Michael P Milham": {},
+    "Simon P Kelly": {}
+  },
+  "related_identifiers": [
+    {
+      "identifier": "10.1038/sdata.2017.40",
+      "identifier_type": "DOI",
+      "relation_type": "References"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/nm000153",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=nm000153",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    }
+  ],
+  "title": "Langer et al. 2017 — Multimodal Resource for Studying Information Processing in the Developing Brain (MIPDB)",
+  "license": "CC-BY-NC-SA-3.0",
+  "dataset_type": "raw",
+  "resource_type_general": "Dataset",
+  "modalities": [
+    "eeg"
+  ],
+  "resource_type_specific": "EEG Dataset",
+  "sizes": [
+    "118.4 GB (5906 files)"
+  ],
+  "formats": [
+    ".eeg",
+    ".json",
+    ".py",
+    ".tsv",
+    ".vhdr",
+    ".vmrk",
+    ".yml"
+  ],
+  "description": "MIPDB is a multimodal neuroimaging resource comprising high-density EEG and eye-tracking data collected from 111 developmental participants (children through adults) during a standardized battery of cognitive and perceptual tasks. The dataset includes resting-state and task-based EEG recordings (500 Hz sampling rate) designed to characterize the maturation of information processing across development. This resource enables investigation of brain development trajectories and cognitive function across the lifespan.",
+  "methods_description": "High-density EEG was recorded using EGI NetStation at 500 Hz sampling rate. Participants performed a battery of six cognitive and perceptual paradigms: resting state, surround suppression, naturalistic viewing, contrast-change detection, sequence learning, and symbol search. Concurrent eye-tracking data were also acquired. Source eye-tracking and behavioral data are preserved in the sourcedata directory.",
+  "keywords": [
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "eye tracking"
+    },
+    {
+      "term": "child development"
+    },
+    {
+      "term": "cognitive development"
+    },
+    {
+      "term": "brain maturation"
+    },
+    {
+      "term": "information processing"
+    },
+    {
+      "term": "multimodal neuroimaging"
+    }
+  ],
+  "source_hash": "d0675a6748052bf84a0c171ecf15723f9a19c439c91ec900e04d36b2a13d6a67"
+}
