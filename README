@@ -14,8 +14,10 @@ The BIDS conversion in this NEMAR record contains EEG data for **111 participant
 
 ## Modality and paradigms
 
-- **Modalities:** High-density EEG (EGI NetStation, recorded at 500 Hz) and eye tracking
-- **Population:** Developmental cohort (children, adolescents, and adults)
+- **Modalities:** High-density EEG (128-channel EGI HydroCel Geodesic Sensor Net,
+  recorded with NetStation at 500 Hz) and eye tracking
+- **Population:** Developmental cohort (children, adolescents, and adults; ages ~6–44
+  per Langer et al. 2017)
 - **Paradigm battery (per Langer et al. 2017):** resting state, surround suppression,
   naturalistic viewing, contrast-change detection, sequence learning, and symbol search
 
