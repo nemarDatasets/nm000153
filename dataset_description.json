@@ -2,6 +2,7 @@
     "Name": "Langer et al. 2017 — Multimodal Resource for Studying Information Processing in the Developing Brain (MIPDB)",
     "BIDSVersion": "1.9.0",
     "DatasetType": "raw",
+    "Version": "1.0.1",
     "License": "CC-BY-NC-SA-3.0",
     "Authors": [
         "Nicolas Langer",
