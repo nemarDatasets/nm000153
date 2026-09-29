@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Langer et al. 2017 — Multimodal Resource for Studying Information Processing in the Developing Brain (MIPDB)",
-  "description": "MIPDB is a multimodal neuroimaging resource comprising high-density EEG (128-channel, 500 Hz) and eye-tracking data collected from 111 participants spanning childhood to adulthood. Participants completed a standardized battery of cognitive and perceptual tasks including resting state, surround suppression, naturalistic viewing, contrast-change detection, sequence learning, and symbol search. This dataset enables investigation of information-processing maturation across human development.",
-  "methods_description": "High-density electroencephalography was recorded using a 128-channel EGI HydroCel Geodesic Sensor Net at 500 Hz sampling rate with NetStation acquisition software. Eye-tracking data were simultaneously acquired. Participants performed six cognitive and perceptual paradigms organized into sequential recording blocks.",
+  "description": "The Multimodal Resource for Studying Information Processing in the Developing Brain (MIPDB) provides high-density 128-channel EEG and eye-tracking recordings from a developmental cohort spanning childhood to adulthood. Participants completed a battery of cognitive and perceptual paradigms, including resting state, surround suppression, naturalistic viewing, contrast change detection, sequence learning, and symbol search. This BIDS conversion contains EEG data from 111 participants and is intended to support research on the maturation of information processing in the human brain.",
+  "methods_description": "EEG was recorded with a 128-channel EGI HydroCel Geodesic Sensor Net using NetStation at 500 Hz, together with eye tracking. Each recording block was converted from EGI .raw files to a separate BIDS run (task-block01 to task-block10). Eye-tracking and behavioural source data are preserved in sourcedata.",
   "license": "CC-BY-NC-SA-3.0",
   "dataset_type": "raw",
   "authors": {
@@ -32,26 +32,23 @@
       "term": "eye tracking"
     },
     {
-      "term": "child development"
+      "term": "brain development"
     },
     {
-      "term": "cognitive processing"
+      "term": "information processing"
     },
     {
-      "term": "brain maturation"
+      "term": "resting state"
     },
     {
-      "term": "high-density electroencephalography"
-    },
-    {
-      "term": "multimodal neuroimaging"
+      "term": "child and adult cohort"
     }
   ],
   "related_identifiers": [
     {
       "identifier": "10.1038/sdata.2017.40",
       "identifier_type": "DOI",
-      "relation_type": "References"
+      "relation_type": "IsDescribedBy"
     },
     {
       "identifier": "https://github.com/nemarDatasets/nm000153",
@@ -70,7 +67,7 @@
     "eeg"
   ],
   "sizes": [
-    "118.4 GB (5906 files)"
+    "110 GB (5906 files)"
   ],
   "formats": [
     ".eeg",
