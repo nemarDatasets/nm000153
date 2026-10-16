@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Langer et al. 2017 — Multimodal Resource for Studying Information Processing in the Developing Brain (MIPDB)",
-  "description": "The Multimodal Resource for Studying Information Processing in the Developing Brain (MIPDB) provides high-density 128-channel EEG and eye-tracking recordings from a developmental cohort spanning childhood to adulthood. Participants completed a battery of cognitive and perceptual paradigms, including resting state, surround suppression, naturalistic viewing, contrast change detection, sequence learning, and symbol search. This BIDS conversion contains EEG data from 111 participants, with source eye-tracking and behavioural data preserved in sourcedata.",
-  "methods_description": "EEG was recorded with a 128-channel EGI HydroCel Geodesic Sensor Net using NetStation at 500 Hz, together with eye tracking, while participants performed a fixed sequence of paradigms. Each recording block was converted to a BIDS EEG run (task-block01 to task-block10) using MNE's EGI reader.",
+  "description": "The Multimodal Resource for Studying Information Processing in the Developing Brain (MIPDB) provides high-density 128-channel EEG and eye-tracking recordings from 111 participants in a developmental cohort spanning childhood to adulthood. Participants completed a battery of cognitive and perceptual paradigms: resting state, surround suppression, naturalistic viewing, contrast change detection, sequence learning, and symbol search. The resource supports research on the maturation of information processing in the human brain.",
+  "methods_description": "EEG was recorded with a 128-channel EGI HydroCel Geodesic Sensor Net using NetStation at 500 Hz, together with eye tracking. Native EGI .raw files were converted to BIDS with MNE, with each recording block saved as a separate run labelled task-block01 to task-block10. Source eye-tracking and behavioural data are preserved in sourcedata.",
   "license": "CC-BY-NC-SA-3.0",
   "dataset_type": "raw",
   "authors": {
@@ -41,7 +41,14 @@
       "term": "resting state"
     },
     {
-      "term": "children and adolescents"
+      "term": "Electroencephalography",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D004569"
+    },
+    {
+      "term": "Child Development",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D002657"
     }
   ],
   "related_identifiers": [
@@ -78,5 +85,5 @@
     ".vmrk",
     ".yml"
   ],
-  "source_hash": "e2e11ef099be2e9e2c77fca890fb19af4bbc9c6a4d85b24b34c8156298f243d4"
+  "source_hash": "f507fa206837cce83118707485162a4f09835715c97a2b0e25fd6b214cdf5612"
 }
