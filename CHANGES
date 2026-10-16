@@ -1,0 +1,14 @@
+1.0.2 2026-10-16
+  - Text files are now plain git files instead of git-annex pointers: 4692 files
+    (.tsv 2401, .json 2290, .gitignore 1). Their content is unchanged: each file's SHA-256 equals its
+    former annex key. Catalogues such as EEGDash read sidecars from the git tree
+    without downloading annexed content, so they could not read sampling rate,
+    channel count or duration for this dataset.
+  - Added .gitattributes so text files stay in git from now on.
+  - No data file changed: every annexed recording keeps its annex key.
+
+1.0.1 2026-08-14
+  - README: description of the MIPDB dataset.
+
+1.0.0 2026-06-17
+  - Initial release on NEMAR.
