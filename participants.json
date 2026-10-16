@@ -1,1 +1,32 @@
-/annex/objects/SHA256E-s756--4b8aeb7120262dc2ff8cb93d218fdcc09062a65f0ec300afa2e67bb6c81d95dc.json
+{
+    "participant_id": {
+        "Description": "Unique participant identifier"
+    },
+    "age": {
+        "Description": "Age of the participant at time of testing",
+        "Units": "years"
+    },
+    "sex": {
+        "Description": "Biological sex of the participant",
+        "Levels": {
+            "F": "female",
+            "M": "male"
+        }
+    },
+    "hand": {
+        "Description": "Handedness of the participant",
+        "Levels": {
+            "R": "right",
+            "L": "left",
+            "A": "ambidextrous"
+        }
+    },
+    "weight": {
+        "Description": "Body weight of the participant",
+        "Units": "kg"
+    },
+    "height": {
+        "Description": "Body height of the participant",
+        "Units": "m"
+    }
+}

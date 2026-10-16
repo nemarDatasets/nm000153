@@ -1,0 +1,11 @@
+# Text files stay plain git so catalogues (e.g. EEGDash) can read the sidecars from a clone
+# without annexed content; large binary data goes to git-annex (nemar-s3).
+* annex.largefiles=(not(mimetype=text/*))and(largerthan=1mb)
+*.json annex.largefiles=nothing
+*.tsv annex.largefiles=nothing
+*.txt annex.largefiles=nothing
+README* annex.largefiles=nothing
+CHANGES annex.largefiles=nothing
+participants.* annex.largefiles=nothing
+.bidsignore annex.largefiles=nothing
+**/.git* annex.largefiles=nothing

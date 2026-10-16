@@ -1,1 +1,18 @@
-/annex/objects/SHA256E-s480--848b13b1ca7f7dac6db6ba9c712d9d7a2446cef756d05af5b5d252d00354c710.json
+{
+    "TaskName": "block05",
+    "Manufacturer": "Brain Products",
+    "PowerLineFrequency": "n/a",
+    "SamplingFrequency": 500.0,
+    "SoftwareFilters": "n/a",
+    "RecordingDuration": 218.904,
+    "RecordingType": "continuous",
+    "EEGReference": "n/a",
+    "EEGGround": "n/a",
+    "EEGPlacementScheme": "n/a",
+    "EEGChannelCount": 128,
+    "EOGChannelCount": 0,
+    "ECGChannelCount": 0,
+    "EMGChannelCount": 0,
+    "MiscChannelCount": 37,
+    "TriggerChannelCount": 0
+}
